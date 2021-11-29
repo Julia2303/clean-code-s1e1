@@ -107,20 +107,17 @@
   justify-content: space-between;
   align-items: center;
 }
-.section__item > * {
-  vertical-align: middle;
-}
 
-.section__item > .item__checkbox {
+.item__checkbox {
   margin: 0 10px;
 }
-.section__item > .item__task-name {
+.item__task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.section__item > .item__task-input {
+.section__item .item__task-input {
   width: 226px;
 }
 .item__button-img {
